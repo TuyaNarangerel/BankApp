@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\customersearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\customersearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\customerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\customerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\customerdetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\customerdetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A41471E-7650-4127-8AA4-B2975ACB84BB}|..\\Services\\Services.csproj|c:\\users\\tuya_\\source\\repos\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\models\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:models\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A41471E-7650-4127-8AA4-B2975ACB84BB}|..\\Services\\Services.csproj|c:\\users\\tuya_\\source\\repos\\services\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A41471E-7650-4127-8AA4-B2975ACB84BB}|..\\Services\\Services.csproj|c:\\users\\tuya_\\source\\repos\\services\\viewmodels\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\customersearch.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\customersearch.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\shared\\_transactionpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\shared\\_transactionpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\accountdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\accountdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\accountdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\accountdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\wwwroot\\js\\sb-admin-2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:wwwroot\\js\\sb-admin-2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A41471E-7650-4127-8AA4-B2975ACB84BB}|..\\Services\\Services.csproj|c:\\users\\tuya_\\source\\repos\\services\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A41471E-7650-4127-8AA4-B2975ACB84BB}|..\\Services\\Services.csproj|c:\\users\\tuya_\\source\\repos\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A41471E-7650-4127-8AA4-B2975ACB84BB}|..\\Services\\Services.csproj|c:\\users\\tuya_\\source\\repos\\services\\viewmodels\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\mybankapp\\models\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:models\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerDetail.cshtml",
+              "RelativeDocumentMoniker": "Pages\\CustomerDetail.cshtml",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerDetail.cshtml",
+              "RelativeToolTip": "Pages\\CustomerDetail.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwCEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:43:21.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerSearch.cshtml",
+              "RelativeDocumentMoniker": "Pages\\CustomerSearch.cshtml",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerSearch.cshtml",
+              "RelativeToolTip": "Pages\\CustomerSearch.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwE0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T16:02:16.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDetail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerDetail.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CustomerDetail.cshtml.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerDetail.cshtml.cs",
+              "RelativeToolTip": "Pages\\CustomerDetail.cshtml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:41:30.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\CustomerService.cs",
+              "RelativeToolTip": "..\\Services\\CustomerService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwCoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:37:07.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Models\\CustomerDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Models\\CustomerDetailsViewModel.cs",
+              "RelativeToolTip": "Models\\CustomerDetailsViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:49:45.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ViewModels\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\CustomerViewModel.cs",
+              "RelativeToolTip": "..\\Services\\ViewModels\\CustomerViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:22:22.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\CustomerDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ViewModels\\CustomerDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\CustomerDetailsViewModel.cs",
+              "RelativeToolTip": "..\\Services\\ViewModels\\CustomerDetailsViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:41:23.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerSearch.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerSearch.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\CustomerSearch.cshtml.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\CustomerSearch.cshtml.cs",
+              "RelativeToolTip": "Pages\\CustomerSearch.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:51:40.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_TransactionPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\Shared\\_TransactionPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_TransactionPartial.cshtml",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\Shared\\_TransactionPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_TransactionPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:31:46.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\AccountDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AccountDetails.cshtml",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\AccountDetails.cshtml",
+              "RelativeToolTip": "Pages\\AccountDetails.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAkwDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T17:47:12.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\AccountDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\AccountDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\AccountDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\AccountDetails.cshtml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:53:46.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:27:09.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "sb-admin-2.js",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\wwwroot\\js\\sb-admin-2.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\sb-admin-2.js",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\wwwroot\\js\\sb-admin-2.js",
+              "RelativeToolTip": "wwwroot\\js\\sb-admin-2.js",
+              "ViewState": "AQIAADcAAAAAAAAAAAAiwEoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-27T17:14:30.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ViewModels\\AccountViewModel.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\AccountViewModel.cs",
+              "RelativeToolTip": "..\\Services\\ViewModels\\AccountViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:20:07.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\TransactionService.cs",
+              "RelativeToolTip": "..\\Services\\TransactionService.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAUwIsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:14:23.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransactionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\TransactionViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ViewModels\\TransactionViewModel.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\ViewModels\\TransactionViewModel.cs",
+              "RelativeToolTip": "..\\Services\\ViewModels\\TransactionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:42:11.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:44:04.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAUwIwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T14:40:01.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TransactionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Models\\TransactionViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\TransactionViewModel.cs",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\MyBankApp\\Models\\TransactionViewModel.cs",
+              "RelativeToolTip": "Models\\TransactionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:48:42.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

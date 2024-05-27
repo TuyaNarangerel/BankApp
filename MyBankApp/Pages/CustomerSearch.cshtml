@@ -1,0 +1,79 @@
+﻿@page
+@model MyBankApp.Pages.CustomerSearchModel
+@{
+    ViewData["Title"] = "Search Customers";
+    Layout = "_Layout";
+}
+
+<h2>Search Customers</h2>
+
+<form method="get" class="form-inline">
+    <input type="text" name="searchTerm" value="@Model.SearchTerm" class="form-control mr-sm-2" placeholder="Enter name or city" />
+    <button type="submit" class="btn btn-primary my-2 my-sm-0">Search</button>
+</form>
+
+@if (Model.Customers != null && Model.Customers.Items.Any())
+{
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Customer Number</th>
+                <th>Personal Number</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model.Customers.Items)
+            {
+                <tr>
+                    <td><a asp-page="/CustomerDetails" asp-route-id="@customer.CustomerId">@customer.CustomerId</a></td>
+                    <td>@customer.PersonalNumber</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.Address</td>
+                    <td>@customer.City</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(Model.Customers.PageIndex == 1 ? "disabled" : "")">
+                <a class="page-link" asp-page="/CustomerSearch" asp-route-pageIndex="@(Model.Customers.PageIndex - 1)" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span> Previous
+                </a>
+            </li>
+
+            @{
+                int maxPageLinks = 10;
+                int startPage = Math.Max(1, Model.Customers.PageIndex - maxPageLinks / 2);
+                int endPage = Math.Min(Model.Customers.TotalPages, startPage + maxPageLinks - 1);
+            }
+
+            @if (startPage > 1)
+            {
+                <li class="page-item"><span class="page-link">...</span></li>
+            }
+
+            @for (int i = startPage; i <= endPage; i++)
+            {
+                <li class="page-item @(Model.Customers.PageIndex == i ? "active" : "")">
+                    <a class="page-link" asp-page="/CustomerSearch" asp-route-pageIndex="@i">@i</a>
+                </li>
+            }
+
+            @if (endPage < Model.Customers.TotalPages)
+            {
+                <li class="page-item"><span class="page-link">...</span></li>
+            }
+
+            <li class="page-item @(Model.Customers.PageIndex == Model.Customers.TotalPages ? "disabled" : "")">
+                <a class="page-link" asp-page="/CustomerSearch" asp-route-pageIndex="@(Model.Customers.PageIndex + 1)" aria-label="Next">
+                    Next <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+}

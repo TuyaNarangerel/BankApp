@@ -1,0 +1,55 @@
+﻿@page
+@model MyBankApp.Pages.TransferModel
+@{
+    ViewData["Title"] = "Transfer";
+}
+
+<h2>Transfer</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="FromAccountId">From Account</label>
+        <input asp-for="FromAccountId" class="form-control" />
+        <span asp-validation-for="FromAccountId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ToAccountId">To Account</label>
+        <input asp-for="ToAccountId" class="form-control" />
+        <span asp-validation-for="ToAccountId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Amount">Amount</label>
+        <input asp-for="Amount" class="form-control" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Transfer</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-info mt-3">@Model.Message</div>
+}
+
+@if (Model.RecentTransactions != null && Model.RecentTransactions.Any())
+{
+    <h3 class="mt-4">Recent Transactions for From Account</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var transaction in Model.RecentTransactions)
+            {
+                <tr>
+                    <td>@transaction.Date.ToShortDateString()</td>
+                    <td>@transaction.Type</td>
+                    <td>@transaction.Amount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
