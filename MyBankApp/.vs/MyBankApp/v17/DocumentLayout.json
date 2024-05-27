@@ -28,16 +28,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -46,7 +38,7 @@
               "RelativeDocumentMoniker": "..\\..\\..\\Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\tuya_\\source\\repos\\Services\\CustomerService.cs",
               "RelativeToolTip": "..\\..\\..\\Services\\CustomerService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAkwCoAAAABAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T13:37:07.45Z",
               "EditorCaption": ""
@@ -61,8 +53,7 @@
               "RelativeToolTip": "..\\..\\..\\Services\\ViewModels\\CustomerViewModel.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T14:22:22.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T14:22:22.998Z"
             },
             {
               "$type": "Document",
@@ -74,8 +65,7 @@
               "RelativeToolTip": "..\\..\\..\\Services\\ViewModels\\CustomerDetailsViewModel.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T15:41:23.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T15:41:23.493Z"
             },
             {
               "$type": "Document",
@@ -87,8 +77,7 @@
               "RelativeToolTip": "..\\..\\..\\Services\\ViewModels\\AccountViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T14:20:07.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T14:20:07.214Z"
             },
             {
               "$type": "Document",
@@ -100,8 +89,7 @@
               "RelativeToolTip": "..\\..\\..\\Services\\TransactionService.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAUwIsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T15:14:23.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T15:14:23.063Z"
             },
             {
               "$type": "Document",
@@ -113,8 +101,7 @@
               "RelativeToolTip": "..\\..\\..\\Services\\ViewModels\\TransactionViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T15:42:11.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T15:42:11.513Z"
             }
           ]
         }
