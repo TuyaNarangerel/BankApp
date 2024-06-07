@@ -4,7 +4,6 @@
 *.pdb
 *.props
 *.targets
-*.cs
 *.cache
 *.txt
 *.a
