@@ -1,4 +1,4 @@
-﻿@page "{id:int}"
+﻿@* @page "{id:int}"
 @model MyBankApp.Pages.AccountDetailsModel
 @{
     ViewData["Title"] = "Account Details";
@@ -12,7 +12,7 @@
 
     <h3>Transactions</h3>
     <div id="transactionList">
-        <table class="table table-striped mt-4">
+        <table class="table">
             <thead>
                 <tr>
                     <th>Transaction ID</th>
@@ -30,9 +30,70 @@
                         <td>@transaction.TransactionId</td>
                         <td>@transaction.Amount</td>
                         <td>@transaction.Balance</td>
-                        <td>@transaction.Date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        <td>@transaction.Date.ToDateTime(new TimeOnly(0, 0)).ToString("yyyy-MM-dd HH:mm:ss")</td>
                         <td>@transaction.Type</td>
                         <td>@transaction.Operation</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <button id="loadMoreButton" class="btn btn-primary" data-skip="20">Load More</button>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('loadMoreButton').addEventListener('click', function () {
+            var button = this;
+            var accountId = @Model.Account.AccountId;
+            var skip = button.getAttribute('data-skip') || 20;
+
+            fetch(`/AccountDetails/${accountId}?handler=LoadMore&skip=${skip}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.querySelector('#transactionList tbody').insertAdjacentHTML('beforeend', data);
+                    button.setAttribute('data-skip', parseInt(skip) + 20);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+} *@
+
+@page "{id:int}"
+@model MyBankApp.Pages.AccountDetailsModel
+@{
+    ViewData["Title"] = "Account Details";
+}
+
+<h2>Account Details</h2>
+
+<div>
+    <p>Account Number: @Model.Account.AccountId</p>
+    <p>Balance: @Model.Account.Balance</p>
+
+    <h3>Transactions</h3>
+    <div id="transactionList">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in Model.Transactions)
+                {
+                    <tr>
+                        <td>@transaction.Date.ToDateTime(new TimeOnly(0, 0)).ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        <td>@transaction.Type</td>
+                        <td>@transaction.Amount</td>
                     </tr>
                 }
             </tbody>

@@ -94,7 +94,7 @@ namespace Services
         {
             var transactions = await _context.Transactions
                 .Where(t => t.AccountId == accountId)
-                .OrderByDescending(t => t.Date)
+                .OrderByDescending(t => t.TransactionId)
                 .Take(count)
                 .Select(t => new TransactionViewModel
                 {

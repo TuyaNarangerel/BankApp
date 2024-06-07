@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Services;
 
-
 namespace MyBankApp
 {
     public class Program
@@ -53,21 +52,19 @@ namespace MyBankApp
                 }
             }
 
-            // Configure the HTTP request pipeline. 
-            //if (app.Environment.IsDevelopment() || app.Environment.IsProduction()) 
-            //{
-            app.UseMigrationsEndPoint();
-            //}
-            //else
-            //{
-            app.UseExceptionHandler("/Error");
-            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts. 
-            app.UseHsts();
-            //}
-
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseMigrationsEndPoint();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
-
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -76,13 +73,8 @@ namespace MyBankApp
             app.UseAuthorization();
 
             app.MapRazorPages();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapRazorPages();
-            //});
 
             app.Run();
         }
-
     }
 }

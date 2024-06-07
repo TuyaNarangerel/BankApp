@@ -44,7 +44,7 @@ namespace MyBankApp.Pages
             var model = new TransactionViewModel
             {
                 AccountId = AccountId,
-                Amount = Amount,
+                Amount = -Amount,
                 Type = "Withdraw"
             };
 
