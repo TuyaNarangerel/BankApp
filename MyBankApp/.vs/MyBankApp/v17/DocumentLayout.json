@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\tuyabank\\bankapp\\mybankapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|c:\\users\\tuya_\\source\\repos\\tuyabank\\bankapp\\mybankapp\\pages\\customerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E72221A-3ECE-4AC3-B9D0-5DEC8AB80A93}|MyBankApp.csproj|solutionrelative:pages\\customerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T21:36:24.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CustomerDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Pages\\CustomerDetails.cshtml",
               "RelativeDocumentMoniker": "Pages\\CustomerDetails.cshtml",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AccountDetails.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Pages\\AccountDetails.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\AccountDetails.cshtml.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_TransactionPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Pages\\Shared\\_TransactionPartial.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_TransactionPartial.cshtml",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\tuya_\\source\\repos\\TuyaBank\\BankApp\\MyBankApp\\Pages\\AccountDetails.cshtml",
               "RelativeDocumentMoniker": "Pages\\AccountDetails.cshtml",
